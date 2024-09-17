@@ -8,13 +8,13 @@ export const name = 'Sourabh';
 export const lastName = 'Kale';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'I am a software engineer with 9 years of experience, specializing in developing and architecting solutions using Java, Spring Boot, and front-end technologies like React and Next.js. My expertise spans across cloud infrastructure with AWS, containerization using Docker, and orchestrating microservices with Kubernetes. I have a strong track record of delivering scalable and robust applications.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/sourabhkale' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/sourabh-kale-b68084a0/'
 	},
 	{
 		platform: Platform.Twitter,
@@ -26,16 +26,16 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'kalesourabh01@gmail.com'
 	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
+	// {
+	// 	platform: Platform.Youtube,
+	// 	link: 'https://www.youtube.com'
+	// },
+	// {
+	// 	platform: Platform.Facebook,
+	// 	link: 'https://www.facebook.com'
+	// }
 ];
 
-export const skills = getSkills('js','reactjs', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('java','js','reactjs', 'html', 'reactjs', 'sass', 'svelte', 'ts','docker');
